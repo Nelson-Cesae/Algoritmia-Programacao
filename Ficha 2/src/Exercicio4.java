@@ -39,7 +39,7 @@ public class Exercicio4 {
 
                 case 8: System.out.println("Pontos: " + 1);
 
-                default: System.out.println("Definir como erro");
+                default: System.out.println("Definir como erro ou não tem direito a pontos");
         }
     }
 }

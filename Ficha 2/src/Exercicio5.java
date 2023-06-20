@@ -17,9 +17,10 @@ public class Exercicio5 {
         System.out.print("Introduza o valor2: ");
         valor2 = input.nextDouble();
 
+        // Comparar valores
         if (valor1 >= valor2)
-        System.out.println(valor2 + " " + valor1);
+        System.out.println(valor2 +""+ valor1);
         else
-        System.out.println(valor1 + " " + valor2);
+        System.out.println(valor1 +""+ valor2);
 }
 }

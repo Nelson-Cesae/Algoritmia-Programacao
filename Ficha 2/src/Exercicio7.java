@@ -7,15 +7,16 @@ public class Exercicio7 {
         System.out.println("*** Exercicio7 ***");
 
         // Definir variaveis
-        double numero;
+        int numero;
 
         // Ler numero
         System.out.print("Introduza o numero: ");
-        numero = input.nextDouble();
+        numero = input.nextInt();
 
-        if (numero==2)
-        System.out.println("O numero e par");
-        else
+        if (numero%2==0) {
+            System.out.println("O numero e par");
+        }else{
         System.out.println ("O numero é impar");
+}
 }
 }
