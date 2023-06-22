@@ -7,28 +7,49 @@ public class Exercicio16 {
         System.out.println("*** Exercicio16 ***");
 
         // Definir variaveis
-        int  valor, nota5=0, nota10=0, nota20=0, nota50=0, nota100=0, nota200=0;
-
+        int  valor, nota200, nota100, nota50, nota20, nota10, nota5;
 
         // ler valor
-        System.out.print("Valor: ");
+        System.out.print("Valor em euros, multiplos de 5: ");
         valor= input.nextInt();
 
-        // Ler nota200
-        System.out.print("Nota200: ");
-        nota200= input.nextInt();
-        nota5=segundosTotais+(tempoMusica*60);
 
-        // ler notas
-        notas=2*5;
-        System.out.print("Notas necessarias: "+valor/2);
-        notas= input.nextInt();
-
-        // Leitura
-        if (valor=10) {
-            System.out.println("Sao precisas 2 notas"+notas);
+        // Condição: definir se o valor é multiplo de 5
+        if (valor %5!=0); {
+            System.out.println("O valor é um multiplo de 5");
         }
 
+        // Programa Valor decomposto
 
+        nota200 = valor / 200;
+        valor %= 200;
+        System.out.println("Notas de 200 euros: " + nota200);
+
+        nota100 = valor / 100;
+        valor %= 100;
+        System.out.println("Notas de 100 euros: " + nota100);
+
+        nota50 = valor / 50;
+        valor %= 50;
+        System.out.println("Notas de 50 euros: " + nota50);
+
+        nota20 = valor / 20;
+        valor %= 20;
+        System.out.println("Notas de 20 euros: " + nota20);
+
+        nota10 = valor / 10;
+        valor %= 10;
+        System.out.println("Notas de 10 euros: " + nota10);
+
+        nota5 = valor / 5;
+        valor %= 5;
+        System.out.println("Notas de 5 euros: " + nota5);
+
+        // Resultado
+
+        System.out.println("Valor: " + valor);
+        System.out.println("Notas:");
+
+        }
 }
-}
+
