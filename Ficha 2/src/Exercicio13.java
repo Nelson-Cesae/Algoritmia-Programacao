@@ -7,17 +7,25 @@ public class Exercicio13 {
         System.out.println("*** Exercicio13 ***");
 
         // Definir variaveis
-        int programa;
+        int programa, hora, minutos;
 
-        // Leitura programa
-        System.out.println("24H ou 12H");
-        programa = input.nextInt();
 
-        // Leitura horario 24horas
-        System.out.println("17H");
+        // Definir hora
+        hora=17;
+        System.out.println("Definir hora:" );
+        hora = input.nextInt();
+
+        // Definir minutos
+        minutos=30;
+        System.out.println ("Definir minutos:" );
+        minutos = input.nextInt();
 
         //Sistema 12 horas
-        if (programa) {
+        if (hora <=12) {
+            System.out.println("Sao "+hora + "AM");
+        } else {
+            System.out.println ("Sao" +hora + "PM");
+        }
 
 }
 }
