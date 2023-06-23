@@ -45,11 +45,6 @@ public class Exercicio16 {
         valor %= 5;
         System.out.println("Notas de 5 euros: " + nota5);
 
-        // Resultado
-
-        System.out.println("Valor: " + valor);
-        System.out.println("Notas:");
-
         }
 }
 
