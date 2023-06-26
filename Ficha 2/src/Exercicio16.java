@@ -15,9 +15,9 @@ public class Exercicio16 {
 
 
         // Condição: definir se o valor é multiplo de 5
-        if (valor %5!=0); {
+        if (valor %5!=0){
             System.out.println("O valor é um multiplo de 5");
-        }
+
 
         // Programa Valor decomposto
 
@@ -45,6 +45,9 @@ public class Exercicio16 {
         valor %= 5;
         System.out.println("Notas de 5 euros: " + nota5);
 
-        }
-}
+        }else{ // valor não é multiplo de 5
+        System.out.println("Valor invalido. Tem de ser multiplo de 5");
+    }
+         }
+    }
 
