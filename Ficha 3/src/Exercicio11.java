@@ -21,7 +21,7 @@ public class Exercicio11 {
 
         numero=inicio;
         while (numero <= fim) { //while para iterar (loop, contador) de inicio até fim.
-            if (numero % 5 == 0) { //verificar se o número atual é um múltiplo de 5 usando o operador %.
+            if (numero % 5 == 0) { //verificar se o número atual é um múltiplo de 5 usando o operador % (resto da divisão inteira).
                 System.out.println(numero);
             }
 

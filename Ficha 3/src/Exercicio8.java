@@ -7,7 +7,7 @@ public class Exercicio8 {
         System.out.println("*** Exercicio8 ***");
 
         // Ler variaveis
-        int num, par=2;
+        int num, par=2; // o par é um iterador
 
         // Ler numero
         System.out.println("Defina um numero: ");

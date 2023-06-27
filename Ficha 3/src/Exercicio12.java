@@ -13,7 +13,7 @@ public class Exercicio12 {
         // Pedir ao utilizador numeros inteiros
         System.out.println("Digite uma sequência de números inteiros (-1 para parar):");
 
-        numeroanterior=Integer.MIN_VALUE;
+        numeroanterior=Integer.MIN_VALUE; // integer é un numero inteiro.
         numeroatual= input.nextInt();
 
         while (numeroatual != -1) {
@@ -27,7 +27,7 @@ public class Exercicio12 {
         }
 
 
-        if (ordemcrescente) {
+        if (ordemcrescente) { // no fundo aqui é variavel "ordemcrescente"==true
             System.out.println("A sequência está em ordem crescente.");
         } else {
             System.out.println("A sequência não está em ordem crescente.");
