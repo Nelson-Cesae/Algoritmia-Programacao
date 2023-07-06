@@ -1,5 +1,6 @@
 package Parte_1;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 // no uses new
@@ -11,43 +12,26 @@ public class Exercicio6 {
 
         // Ler variáveis
         int[] vetor = new int[10];
-        int c=0;
+        int i=0;
+        boolean crescente=true;
 
-        // Ciclo para introduzir numeros no array (ou vetor)
-        for(int i=0; i<10 ; i++){
-            System.out.print("Introduza um elemento no array(vetor)["+i+"]: ");
-            vetor[i]= input.nextInt();
-
+        // Leitura do Array
+        for (i = 0; i < 10; i++) {
+            System.out.print("Digite o elemento no array ["+i+"]: ");
+            vetor[i] = input.nextInt();
         }
 
-        //// Ciclo para colocar os elementos em ordem crescente
-                if(vetor<c && a<c){ // a ... ...
-                    if( b<c){ // abc
-                        System.out.println(a+" "+b+" "+c);
-                    }else{ // acb
-                        System.out.println(a+" "+c+" "+b);
-                    }
-                }
+        // Verificação do boolean - array crescente ou não?
+        for(i = 0; i<vetor.length-1 ; i++){
+            if (vetor[i]> vetor[i+1]) {
+                crescente= false;
+            }
+        }
+        if (crescente){
+            System.out.println("Os elementos estão em ordem crescente");
 
-
-                if(b<a && b<c) { // b ... ...
-                    if(a<c){ // bac
-                        System.out.println(b+" "+a+" "+c);
-                    }else{ // bca
-                        System.out.println(b+" "+c+" "+a);
-                    }
-                }
-
-
-                if(c<a && c<b){ // c ... ...
-                    if(a<b){ // cab
-                        System.out.println(c+" "+a+" "+b);
-                    }else{ // cba
-                        System.out.println(c+" "+b+" "+a);
-                    }
-                }
-
-                break;
-
+        } else {
+            System.out.println("Os elementos não estão em ordem crescente");
+        }
     }
 }
