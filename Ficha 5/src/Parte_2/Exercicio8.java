@@ -14,7 +14,7 @@ public class Exercicio8 {
         int[ ][ ] matriz = new int[3] [3];
         int linha, coluna;
 
-        matriz[0][0]= 5;  // Neste exercicio eu defini os elementos da matriz (não fiz o System.out.println(Define os elelemntos...));
+        matriz[0][0]= 5;  // Neste exercicio eu defini os elementos da matriz (não fiz o System.out.println(Define os elementos...));
         matriz[0][1]= 7;
         matriz[0][2]= 8;
 
