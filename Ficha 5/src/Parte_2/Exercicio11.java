@@ -22,7 +22,7 @@ public class Exercicio11 {
                 }
             }
 
-            maiorValor=matriz[0][0]; // Temos de inicializar o index d da mtri (ou dos dois vetores).
+            maiorValor=matriz[0][0]; // Temos de inicializar o index da matriz (ou dos dois vetores).
             menorValor=matriz[0][0];
 
             // Ciclo para encontrar o maior e o menor valor da matriz
