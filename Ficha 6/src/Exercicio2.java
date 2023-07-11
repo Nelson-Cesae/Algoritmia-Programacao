@@ -10,7 +10,7 @@ public class Exercicio2 {
      */
 
     // no usages new
-    static boolean par(int num){
+    static boolean par(int num){ //num é uma variavel local, da função que a invoca "par" - é quase que uma variavel
 
         if (num%2==0){
             return true;
@@ -28,9 +28,11 @@ public class Exercicio2 {
         // Declarar variáveis
         int numero;
 
+        // Ler input do utilizador
         System.out.print("Introduza um numero: ");
         numero = input.nextInt();
 
+        // Imprimir na consola se o numero cedido é par ou impar
         if(par(numero)){
             System.out.print("Par");
         }else{

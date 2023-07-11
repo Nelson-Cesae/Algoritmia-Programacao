@@ -3,6 +3,13 @@ import java.util.Scanner;
 // no uses new
 public class Exercicio7 {
 
+    /**
+     * A função preencherVetor define os numeros a preencher no vetor o e o imprimirVetor imprime o tamanho do mesmo
+     * @param vetor a preencher
+     * @param tamanho a imprimir
+     * @return o vetor passado como argumento
+     */
+
     static int[] preencherVetor(int[ ] vetor, int tamanho) {
 
         // Ciclo para preencher vetor com valores do utilizador.

@@ -3,6 +3,12 @@ import java.util.Scanner;
 // no uses new
 public class Exercicio8 {
 
+    /**
+     * A função diz-nos qual o maior elemento do vetor
+     * @param vetor que se vai avaliar
+     * @return o maior elemento do utilizador (definido pelo utilizador)
+     */
+
     static int maior(int[] vetor){
         int maiorElemento=0;
 

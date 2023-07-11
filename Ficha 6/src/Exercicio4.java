@@ -14,7 +14,7 @@ public class Exercicio4 {
     boolean primo=true;
 
 
-        while(divisor<num){
+        while(divisor<num){ // o Prof usou um for, ver resolução dele
             if(num%divisor==0){
             }
             divisor++;

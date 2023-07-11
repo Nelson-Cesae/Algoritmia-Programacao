@@ -8,8 +8,7 @@ public class Exercicio6 {
      * desenvolvidas nos exercícios 2 a 4
      */
 
-
-    static void menu() {
+    static void menu() { // ver a resolução do Prof. Ele coloca esta primeira parte no Main
 
         // Instancia obrigatória do Scanner
         Scanner input = new Scanner(System.in);
