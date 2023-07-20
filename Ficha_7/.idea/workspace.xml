@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e88a71f8-404f-482a-b127-c1c500b5c583" name="Changes" comment="" />
+    <list default="true" id="03088945-30c6-4e4b-a098-b6538cd4e9dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2SFOzOdZHLcSSOB6fw2sUgSzjHw" />
+  <component name="ProjectId" id="2SpjFWhMa4rgELpnO7kawifLIjs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,40 +32,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/fdev01/Desktop/Algoritmia-Programacao/Ficha 6"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercicio10">
-    <configuration name="Exercicio10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio10" />
-      <module name="Ficha 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercicio9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercicio9" />
-      <module name="Ficha 6" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Exercicio10" />
-        <item itemvalue="Application.Exercicio9" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e88a71f8-404f-482a-b127-c1c500b5c583" name="Changes" comment="" />
-      <created>1688739123631</created>
+      <changelist id="03088945-30c6-4e4b-a098-b6538cd4e9dd" name="Changes" comment="" />
+      <created>1689850314315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1688739123631</updated>
+      <updated>1689850314315</updated>
     </task>
     <servers />
   </component>
