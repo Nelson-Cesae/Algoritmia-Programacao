@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03088945-30c6-4e4b-a098-b6538cd4e9dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ficha_7.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_01_Alternativa01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_01_Alternativa02.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_03_Alternativa01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_04.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_05_1999.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_05_31.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_06.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_07.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_08.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_09.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_10.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_11.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Files/exercicio_13.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="03088945-30c6-4e4b-a098-b6538cd4e9dd" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
