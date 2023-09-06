@@ -24,6 +24,9 @@ public class Livro {
         this.isbn = isbn;
     }
 
+    /**
+     * Método para exibir os dados de um livro
+     */
     public void exibirDetalhes(){
         System.out.println("Titulo: " +this.titulo);
         System.out.println("Autor: " +this.autor);
