@@ -7,6 +7,6 @@ public class JatoParticular extends Aviao {
     private double capacidade_bagagem;
     private Categoria categoria;
     private Instalacoes instalacoes;
-    
+
 
 }
