@@ -23,7 +23,20 @@ public class Planta extends SerVivo{
 
     }
 
-    public FamiliaPlanta getFamiliaPlanta() {
+    public FamiliaPlanta getFamilia() {
         return familia;
     }
+
+    public void setFamilia(FamiliaPlanta familia) {
+        this.familia = familia;
+    }
+
+    public int getGrauDefesa() {
+        return grauDefesa;
+    }
+
+    public void setGrauDefesa(int grauDefesa) {
+        this.grauDefesa = grauDefesa;
+    }
 }
+

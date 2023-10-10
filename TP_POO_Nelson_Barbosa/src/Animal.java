@@ -25,6 +25,7 @@ public class Animal extends SerVivo{
         this.fome = fome;
         this.peso = peso;
         this.inteligencia = inteligencia;
-        this.barulho = barulho;
+        this.barulho = "au au au";
     }
+
 }
