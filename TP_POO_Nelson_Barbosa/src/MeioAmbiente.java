@@ -20,31 +20,39 @@ public class MeioAmbiente {
     }
 
 
-    public boolean plantaBebe (int indexPlanta){
+    public boolean plantaBebe (int indexPlanta) {
+
+        Planta plantabebe = (Planta) this.seres.get(indexPlanta); // Casting
 
         // Variáveis
-        double aguaNecessaria = 0.0; // é em litros;
+        double aguaNecessaria = 0; // é em litros;
 
-        if(indexPlanta >= 0 && indexPlanta < seres.size()){ //para definir se o index do array que definimos para os seres está em conformidade
-            if (FamiliaPlanta.ARVORES.equals(Planta.getFamilia())) { // As árvores bebem 1 litro
-                aguaNecessaria = 1.0;
-            } else if (FamiliaPlanta.FLORES.equals(Planta.getFamilia())) { // As flores bebem 0.1 litros
+
+        if (indexPlanta >= 0 && indexPlanta < this.seres.size()) { //para definir se o index do array que definimos para os seres está em conformidade
+            if (FamiliaPlanta.ARVORES.equals(plantabebe.getFamilia())) { // As árvores bebem 1 litro
+                aguaNecessaria = 1;
+            } else if (FamiliaPlanta.FLORES.equals(plantabebe.getFamilia())) { // As flores bebem 0.1 litros
                 aguaNecessaria = 0.1;
-            } else if (FamiliaPlanta.ERVAS.equals(Planta.getFamilia())) { // As ervas bebem 0.25 litros
+            } else if (FamiliaPlanta.ERVAS.equals(plantabebe.getFamilia())) { // As ervas bebem 0.25 litros
                 aguaNecessaria = 0.25;
-            } else if (agua >= aguaNecessaria){ //
-                agua=agua-aguaNecessaria; // retornamos true portanto diminuimos a agua no ambiente
-                return true;
-
-            } else { seres.remove(indexPlanta);
-                return false; // a planta não bebe e seca, logo é removida
             }
         } else {
-        return false; // indice da planta não é valido
+            return false; // indice da planta não é valido
+        }
+
+        if (this.agua >= aguaNecessaria) { //
+            this.agua = this.agua - aguaNecessaria; // retornamos true portanto diminuimos a agua no ambiente
+            return true;
+
+        } else {
+            this.seres.remove(indexPlanta);
+            return false; // a planta não bebe e seca, logo é removida
+        }
     }
 
     public boolean plantaComeInsetos(int indexPlanta){
 
+        Planta plantaInsetos = (Planta) this.seres.get(indexPlanta); //casting
     }
 
     public void plantaAbanaComVento(int indexPlanta){
