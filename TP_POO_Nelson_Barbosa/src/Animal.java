@@ -5,7 +5,7 @@ public class Animal extends SerVivo{
     private AlimentacaoAnimal alimentacao;
     private boolean fome;
     private double peso, inteligencia;
-    private String barulho;
+    private static String barulho;
 
     /**
      * Método Construtor
@@ -28,4 +28,43 @@ public class Animal extends SerVivo{
         this.barulho = "au au au";
     }
 
+    public AlimentacaoAnimal getAlimentacao() {
+        return alimentacao;
+    }
+
+    public void setAlimentacao(AlimentacaoAnimal alimentacao) {
+        this.alimentacao = alimentacao;
+    }
+
+    public boolean isFome() {
+        return fome;
+    }
+
+    public void setFome(boolean fome) {
+        this.fome = fome;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public double getInteligencia() {
+        return inteligencia;
+    }
+
+    public void setInteligencia(double inteligencia) {
+        this.inteligencia = inteligencia;
+    }
+
+    public static String getBarulho() {
+        return barulho;
+    }
+
+    public void setBarulho(String barulho) {
+        this.barulho = barulho;
+    }
 }
